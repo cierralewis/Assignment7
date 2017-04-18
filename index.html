@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+    $("button").click(function(){
+    $("p").slideToggle();
+    });
+    });
+
+    $(document).ready(function(){
+        $("li").click(function(){
+           $(this).addClass('selected');
+       });
+    });
+
+    $(document).ready(function(){
+        $("p").click(function(){
+            $(this).addClass('test');
+        });
+    });
+</script>
+
+<style>
+    .selected {
+        background-color: deepskyblue;
+    }
+
+    .test {
+        color: deepskyblue;
+    }
+</style>
+<body>
+<h1>Why Spelman?</h1>
+<button>Hide paragraphs</button>
+<br>
+<h3><b>Why is Spelman the #1 HBCU for the 10th straight year?</b></h3>
+<p>Spelman continues to be the #1 HBCU because of its passion and willingness to
+educate and provide for<br> African American women, so that we be successfully
+equipped for a society so pitted against us.</p>
+<p>Spelman embodies womanhood, sisterhood, and a safe haven for women of all sizes,
+shapes, ethnicity, <br> to feel like they are equal and their opinions and views matter.</p>
+<br>
+<h3>Favorite Spelman Traditions and Moments</h3>
+<ol>
+    <li>Back to School Jam</li>
+    <li>Founder's Day celebration</li>
+    <li>Watch Night for Election Day</li>
+    <li>White Dress Tradition</li>
+</ol>
+
+<br>
+<h3>Why is Computer Science a good major?</h3>
+<p>Computer science is a good major because it's a major that dives
+into the most innovative, and evolving <br>part of our society. Emersing
+oneself into technology, and how it runs and operates can cultivate
+our future,<br> and how our society will adapt and create ways to make every
+day tasks more sufficient.</p>
+</body>
+</html>
